@@ -1,4 +1,5 @@
 import React from 'react';
+import JobCategoryList from './JobCategoryList';
 
 const Home = () => {
     return (
@@ -15,7 +16,9 @@ const Home = () => {
                     <button className='btn-primary'>Get Started</button>
                 </div>
             </header>
-
+            {/* Job-Category-List-section */}
+            <JobCategoryList />
+            {/* Job-Category-List-section  end*/}
 
         </div>
     );

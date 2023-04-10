@@ -1,0 +1,38 @@
+[
+    {
+        "jobTitle": "Software Engineer",
+        "id": 1,
+        "companyName": "Acme Corporation",
+        "icon": "https://cdn-icons-png.flaticon.com/512/43/43710.png?w=740&t=st=1681106774~exp=1681107374~hmac=04d3c0d323f7d2b50ddc1e9ceb9d2ad6b55b539ba26d2f85abf6ee2d2e479a33",
+        "location": "San Francisco, CA",
+        "salary": "$120,000 - $150,000 per year",
+        "quantity": "100+ Available"
+    },
+    {
+        "jobTitle": "Marketing Manager",
+        "id": 2,
+        "companyName": "ABC Inc.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/130/130099.png?w=740&t=st=1681106845~exp=1681107445~hmac=fe441df0fc950c9e50ca50b29d8b21d2a9be6074eed48e8a8dc9eb29b6234291",
+        "location": "New York, NY",
+        "salary": "$90,000 - $110,000 per year",
+        "quantity": "10 Available"
+    },
+    {
+        "jobTitle": "Data Analyst",
+        "id": 3,
+        "companyName": "XYZ Corp.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/43/43391.png?w=740&t=st=1681106883~exp=1681107483~hmac=ff7a15e7e29614ae6326d5d37bb2e6fce267ad9b044a9375af2d0142e47c6a9f",
+        "location": "Seattle, WA",
+        "salary": "$70,000 - $90,000 per year",
+        "quantity": "20 Available"
+    },
+    {
+        "jobTitle": "Customer Service Representative",
+        "id": 4,
+        "companyName": "123 Co.",
+        "icon": "https://cdn-icons-png.flaticon.com/512/44/44357.png?w=740&t=st=1681106945~exp=1681107545~hmac=60fd928a06b0e8d69ba4ad647837c67b761896a66728595ebae275e42a75a222",
+        "location": "Chicago, IL",
+        "salary": "$30,000 - $40,000 per year",
+        "quantity": "50+ Available"
+    }
+]
