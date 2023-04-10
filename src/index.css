@@ -9,3 +9,7 @@
 .gradient {
   @apply bg-gradient-to-r from-cyan-500 to-blue-500
 }
+
+.job-btn {
+  @apply border shadow px-3 rounded bg-gradient-to-r from-blue-400 via-blue-600 to-indigo-400 inline-block text-transparent bg-clip-text border-teal-300 font-semibold
+}

@@ -39,6 +39,9 @@ const Statistics = () => {
     ]
     return (
         <div className='my-12 w-11/12 mx-auto bg-gray-100'>
+
+            <h1 className='text-3xl font-extrabold underline text-center py-6'>Assignment Statistics
+            </h1>
             <BarChart className='text-blue-500 mx-auto '
                 width={800}
                 height={300}

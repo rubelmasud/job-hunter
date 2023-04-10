@@ -8,7 +8,7 @@ const Home = () => {
             <header className='lg:flex items-center gap-[70px] lg:px-20 pt-10 bg-gray-100 mb-[130px]'>
                 {/* img-section */}
                 <div className="">
-                    <img className='w-[816px] h-[700px]' src="https://i.ibb.co/nzWr29L/jhankar-removebg-preview.png" alt="jhankar-removebg-preview" border="0"></img>
+                    <img className='w-[816px] h-[550px]' src="https://i.ibb.co/nzWr29L/jhankar-removebg-preview.png" alt="jhankar-removebg-preview" border="0"></img>
                 </div>
                 {/* text-section */}
                 <div className="mr-[100px] w-full px-2">

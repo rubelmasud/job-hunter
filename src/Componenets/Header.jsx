@@ -50,7 +50,7 @@ const Header = () => {
                     >Blog</NavLink>
                 </li>
             </ul>
-            <button className='btn-primary'>Star Applying</button>
+            <button className='btn-primary '>Star Applying</button>
         </div>
     );
 };
