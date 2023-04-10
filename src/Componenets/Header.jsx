@@ -7,7 +7,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className='flex justify-between items-center lg:mt-6 px-2 lg:w-11/12 mx-auto'>
+        <div className='flex justify-between items-center lg:py-6 px-2 lg:px-20   bg-gray-100'>
             <div onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
                 <span>
                     {
