@@ -30,7 +30,7 @@ const FeaturedJobDetails = () => {
                 <p><span className='text-1xl font-bold'>Job Responsibility:</span>{jobResponsibility}</p><br></br>
                 <p className='text-1xl font-bold'>Educational Requirements:</p><br />
                 <p>{EducationalRequirements}</p><br></br>
-                <p>:</p><br />
+                <p className='font-bold'>Experiences:</p><br />
                 <p>{Experiences}</p>
             </div>
             {/* jobs carts */}
