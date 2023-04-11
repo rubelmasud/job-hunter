@@ -25,7 +25,7 @@ const FeaturedJobDetails = () => {
     return (
         < div className='lg:flex  gap-6 mx-6 my-16'>
             {/* jobs-details */}
-            <div className="lg:w-8/12">
+            <div className="lg:w-8/12 border p-6 shadow rounded ">
                 <h4><span className='text-1xl font-bold'>Job Description:</span>{jobdetails}</h4><br></br>
                 <p><span className='text-1xl font-bold'>Job Responsibility:</span>{jobResponsibility}</p><br></br>
                 <p className='text-1xl font-bold'>Educational Requirements:</p><br />
@@ -35,7 +35,7 @@ const FeaturedJobDetails = () => {
             </div>
             {/* jobs carts */}
             <div className="lg:w-4/12 my-6 lg:my-0">
-                <div className=" bg-gradient-to-r from-slate-100 to-slate-200 shadow-md p-8 rounded">
+                <div className="border-2 bg-gradient-to-r from-slate-100 to-slate-200 shadow-md p-8 rounded">
                     <h5 className='text-lg font-sans font-bold '>Job Details</h5>
                     <div className="h-[1px] opacity-25 w-11/12 my-4 bg-black"></div>
                     <div className="flex items-center gap-2 ">
@@ -63,7 +63,7 @@ const FeaturedJobDetails = () => {
                         <span><span className='text-1xl font-bold'>Address :</span> {location} </span>
                     </div>
                 </div>
-                <button className='btn-primary my-6 w-full'>Apply Now</button>
+                <button className='btn-primary my-6 w-full shadow-md'>Apply Now</button>
             </div>
         </div >
     );

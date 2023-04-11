@@ -7,7 +7,7 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     return (
-        <div className='flex justify-between items-center lg:py-6 px-2 lg:px-20   bg-gray-100'>
+        <div className='flex sticky top-0 justify-between items-center lg:py-6 px-2 lg:px-20   bg-gray-100'>
             <div onClick={() => setIsOpen(!isOpen)} className="lg:hidden">
                 <span>
                     {
@@ -24,7 +24,7 @@ const Header = () => {
                         : <h1 className='text-3xl font-bold'>CareerMatch</h1>
                 }
             </div>
-            <ul className={`   lg:static md:flex gap-9 duration-500 absolute ${isOpen ? "top-12 border w-full pl-3 rounded bg-gradient-to-r from-cyan-300 to-blue-200  " : '-top-28'}`}>
+            <ul className={` lg:font-semibold  lg:static md:flex gap-9 duration-500 absolute ${isOpen ? "top-12 border w-full pl-3 rounded bg-gradient-to-r from-cyan-300 to-blue-200  " : '-top-28'}`}>
                 <li>
                     <NavLink
                         to='/'

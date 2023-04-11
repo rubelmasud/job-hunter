@@ -17,12 +17,12 @@ const FeaturedJobCart = ({ featuredJob, handleFromJobDetails }) => {
                 <button className='job-btn'>Full Time</button>
             </div>
             <div className="mb-6 flex gap-3">
-                <span className='flex'>
-                    <p><ArrowLeftOnRectangleIcon className="h-6 w-6 text-blue-500" /></p>
+                <span className='flex items-center gap-2'>
+                    <p><img className='w-[16px]' src="https://i.ibb.co/X5DKBNc/location.png" alt="dollar-symbol" border="0" /></p>
                     <p> {location}</p>
                 </span>
-                <span className='flex'>
-                    <p><CurrencyDollarIcon className="h-6 w-6 text-gray-500" /></p>
+                <span className='flex items-center gap-2'>
+                    <p><img className='w-[16px]' src="https://i.ibb.co/fMH2v80/dollar-symbol.png" alt="dollar-symbol" border="0" /></p>
                     <p>{salary}</p>
                 </span>
             </div>

@@ -12,6 +12,7 @@ import AppliedJobs from './Componenets/AppliedJobs';
 import Statistics from './Componenets/Statistics';
 import Blog from './Componenets/Blog';
 import FeaturedJobDetails from './FeaturedJobDetails';
+import ErrorPage from './Componenets/ErrorPage';
 
 
 
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    errorElement: <ErrorPage />,
     children: [
       {
         path: '/',
