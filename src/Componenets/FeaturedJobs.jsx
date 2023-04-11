@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import FeaturedJobCart from './FeaturedJobCart';
+import { Link } from 'react-router-dom';
 
 const FeaturedJobs = () => {
 
@@ -21,6 +22,10 @@ const FeaturedJobs = () => {
             .then(data => setShowAllJobs(data))
     }
 
+    const handleFromJobDetails = (id) => {
+
+    }
+
     return (
         <div>
             <div className="text-center mb-8">
@@ -35,6 +40,7 @@ const FeaturedJobs = () => {
                             showAllJobs.map(featuredJob => <FeaturedJobCart
                                 key={featuredJob.id}
                                 featuredJob={featuredJob}
+                                handleFromJobDetails={handleFromJobDetails}
                             ></FeaturedJobCart>)
                         }
                     </div>
@@ -43,10 +49,12 @@ const FeaturedJobs = () => {
                             featuredJobs.map(featuredJob => <FeaturedJobCart
                                 key={featuredJob.id}
                                 featuredJob={featuredJob}
+                                handleFromJobDetails={handleFromJobDetails}
                             ></FeaturedJobCart>)
                         }
                     </div>
             }
+
             <button className='btn-primary flex  mb-[130px] mx-auto' onClick={() => handleShowAllJobs(!showAllJobs)}>Show All Jobs</button>
         </div>
     );
