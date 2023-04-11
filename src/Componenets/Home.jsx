@@ -13,6 +13,7 @@ const Home = () => {
                 {/* text-section */}
                 <div className="mr-[100px] w-full px-2">
                     <h1 className='lg:font-extrabold font-semibold text-3xl lg:text-7xl mb-6'>One Step <br></br> Closer To Your <span className='bg-gradient-to-r from-blue-400 via-blue-600 to-indigo-400 inline-block text-transparent bg-clip-text'> Dream Job</span></h1>
+
                     <p className='text-[#757575] mb-8'>Explore thousands of job opportunities with all the <br></br> information you need. Its your future. Come find it. Manage all <br></br> your job application from start to finish.</p>
                     <button className='btn-primary'>Get Started</button>
                 </div>
