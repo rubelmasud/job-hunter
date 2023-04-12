@@ -35,7 +35,7 @@ const FeaturedJobs = () => {
             {/* Featured-Jobs-section */}
             {
                 showAllJobs
-                    ? <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-6 mb-10">
+                    ? <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mx-6 mb-10 ">
                         {
                             showAllJobs.map(featuredJob => <FeaturedJobCart
                                 key={featuredJob.id}

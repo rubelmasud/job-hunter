@@ -38,7 +38,7 @@ const FeaturedJobDetails = () => {
 
             < div className='lg:flex  gap-6 mx-6 my-16'>
                 {/* jobs-details */}
-                <div className="lg:w-8/12 border p-6 shadow rounded ">
+                <div className="lg:w-8/12 border p-6 shadow rounded bg-gradient-to-r from-slate-50 to-slate-200 ">
                     <h4><span className='text-1xl font-bold'>Job Description:</span>{jobdetails}</h4><br></br>
                     <p><span className='text-1xl font-bold'>Job Responsibility:</span>{jobResponsibility}</p><br></br>
                     <p className='text-1xl font-bold'>Educational Requirements:</p><br />

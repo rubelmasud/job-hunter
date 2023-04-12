@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .btn-primary {
-  @apply bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-semibold py-3 rounded px-4
+  @apply bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm font-semibold py-3 rounded px-4 font-serif font-semibold
 }
 
 .gradient {

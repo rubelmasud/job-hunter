@@ -33,6 +33,10 @@ const AppliedJobs = ({ job }) => {
 
     return (
         <div className='my-28'>
+            <div className="justify-end flex gap-4 mr-14">
+                <button className='btn-primary'>Remote</button>
+                <button className='btn-primary'>Onside</button>
+            </div>
             {
                 allJobs.map(job => <ApplyJobCart
                     key={job.id}

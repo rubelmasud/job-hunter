@@ -1,5 +1,16 @@
 import React from 'react';
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import {
+    ComposedChart,
+    Line,
+    Area,
+    Bar,
+    XAxis,
+    YAxis,
+    CartesianGrid,
+    Tooltip,
+    Legend,
+    Scatter
+} from "recharts";
 
 
 const Statistics = () => {
@@ -42,18 +53,27 @@ const Statistics = () => {
 
             <h1 className='text-3xl font-extrabold underline text-center py-6'>Assignment Statistics
             </h1>
-            <BarChart className='text-blue-500 mx-auto '
-                width={800}
-                height={300}
+            <ComposedChart stroke="#f5f1f5"
+                width={1000}
+                height={400}
                 data={marks}
+                margin={{
+                    top: 20,
+                    right: 20,
+                    bottom: 20,
+                    left: 20
+                }}
             >
-                <CartesianGrid strokeDasharray="3 3" />
+                <CartesianGrid />
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Bar dataKey='Marks'></Bar>
-            </BarChart>
+                <Area type="monotone" dataKey="Marks" fill="#8884d8" stroke="#8884d8" />
+                <Bar dataKey="Marks" barSize={10} fill="#413ea0" />
+                <Line type="monotone" dataKey="Marks" stroke="#ff7300" />
+                <Scatter dataKey="Marks" fill="red" />
+            </ComposedChart>
         </div>
     );
 };
